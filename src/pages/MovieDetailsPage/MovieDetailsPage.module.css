@@ -1,0 +1,77 @@
+.container {
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.rowContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.posterContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 20px;
+}
+
+.goBackBtn {
+  background-color: #f0f0f0;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
+  padding: 4px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.goBackBtn:hover {
+  background-color: #e0e0e0;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+  outline: none;
+}
+
+.goBackBtn:active {
+  background-color: #d0d0d0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.goBackBtn:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.overviewContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  padding: 60px;
+}
+
+.navlinkContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}

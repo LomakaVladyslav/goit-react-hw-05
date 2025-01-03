@@ -1,0 +1,31 @@
+.navContainer {
+  width: 100vw;
+  height: 50px;
+  background-color: #245487;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  gap: 10px;
+}
+
+.navLink {
+  color: azure;
+  font-weight: 500;
+}
+
+.navLink:hover,
+.navLink:focus {
+  color: rgb(128, 147, 221);
+  text-overflow: ellipsis;
+  text-decoration-line: underline;
+}
+
+.navLink:active {
+  color: rgb(113, 193, 193);
+  box-shadow: inset;
+}
