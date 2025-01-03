@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import MovieList from "../components/MovieList/MovieList";
+import MovieList from "../../components/MovieList/MovieList";
 import { useLocation } from "react-router-dom";
-import { getTrendMovies } from "../tmdbApi";
+import { getTrendMovies } from "../../tmdbApi";
 
 function HomePage() {
   const [trendMovies, setTrendMovies] = useState(null);

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import MovieList from "../components/MovieList/MovieList";
-import { searchMovie } from "../tmdbApi";
+import MovieList from "../../components/MovieList/MovieList";
+import { searchMovie } from "../../tmdbApi";
 import { useLocation, useSearchParams } from "react-router-dom";
 
 function MoviesPage() {

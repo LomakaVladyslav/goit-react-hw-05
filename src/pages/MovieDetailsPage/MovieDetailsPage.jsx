@@ -1,5 +1,5 @@
 import { Link, Outlet, useLocation, useParams } from "react-router-dom";
-import { getMovieDetails } from "../tmdbApi";
+import { getMovieDetails } from "../../tmdbApi";
 import { useEffect, useState } from "react";
 import css from "./MovieDetailsPage.module.css";
 function MovieDetailsPage() {
